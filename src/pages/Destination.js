@@ -77,12 +77,12 @@ export default function Destination() {
             <div key={data.name} className="wrapper">
               <picture>
                 <source
-                  srcSet={`.${data.images.webp} `}
+                  srcSet={data.images.webp}
                   type="image/webp"
                   media="(min-width:50rem )"
                 />
                 <img
-                  src={`${data.images.png}`}
+                  src={data.images.png}
                   alt="the moon"
                   className="planet"
                 />
