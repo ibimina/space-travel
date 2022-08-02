@@ -76,11 +76,11 @@ export default function Destination() {
           data.map((data) => (
             <div key={data.name} className="wrapper">
               <picture>
-                <source
+                {/* <source
                   srcSet={data.images.webp}
                   type="image/webp"
                   media="(min-width:60rem )"
-                />
+                /> */}
                 <img
                   src={data.images.png}
                   alt="the moon"
