@@ -79,7 +79,7 @@ export default function Destination() {
                 <source
                   srcSet={data.images.webp}
                   type="image/webp"
-                  media="(min-width:60rem )"
+                  media="(min-width:60rem)"
                 />
                 <img
                   src={data.images.png}

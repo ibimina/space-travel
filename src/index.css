@@ -224,6 +224,7 @@ body,
   font-size: var(--fs-400);
   color: hsl(var(--clr-white));
   line-height: 1.5;
+  background-color: hsl(var(--clr-dark));
 }
 
 header {
