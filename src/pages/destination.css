@@ -52,9 +52,9 @@
   .dec-con{
     padding-inline: 5em;
   }
-  .planet{
+  /* .planet{
     max-height: 300px;
-  }
+  } */
   .wrapper{
   display: grid;
   grid-template-columns: repeat(2,1fr);

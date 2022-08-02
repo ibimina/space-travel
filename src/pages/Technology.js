@@ -62,7 +62,7 @@ export default function Technology() {
                   <source
                     srcSet={tech.images.portrait}
                     type="image/webp"
-                    media="(min-width:50rem )"
+                    media="(min-width:60rem )"
                   />
                   <img
                     src={tech.images.landscape}
